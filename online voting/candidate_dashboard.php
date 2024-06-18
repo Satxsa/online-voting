@@ -74,12 +74,12 @@ $conn->close();
     <div class="container">
         <div class="header">
             <div class="heading-box">
-                <h1 class="heading">Voter Dashboard</h1>
+                <h1 class="heading">Candidate Dashboard</h1>
             </div>
         </div>
 
         <div class="voter-details">
-            <h2>Voter Details</h2>
+            <h2>Candidate Details</h2>
 
             <table class="voter-table">
                 <tr>
@@ -123,7 +123,7 @@ $conn->close();
                 </table>
             </form>
             <div class="actions">
-                <a href="count_results.php"><button class="green-button" id="view-results-button">View Results</button></a>
+                <a href="candidate_results.php"><button class="green-button" id="view-results-button">View Results</button></a>
                 <a href="loginpage.html"><button class="green-button">Back</button></a>
                 <a href="index.html"><button class="green-button">Logout</button></a>
             </div>
